@@ -46,6 +46,13 @@ import { Text, StyleSheet, View, Button, TouchableOpacity, ShadowPropTypesIOS } 
           navigation.navigate('Color')
         }
       />
+      <Button
+        title="Go to Square Demo"
+        onPress={() => /*console.log('button pressed')*/
+          //props.navigation.navigate('Components')
+          navigation.navigate('Square')
+        }
+      />
       <TouchableOpacity onPress={() => /*console.log('List pressed!')*/
         props.navigation.navigate('List')}>
         <Text>Go to List Demo</Text>
