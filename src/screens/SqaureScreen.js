@@ -15,6 +15,12 @@ const SquareScreen = () => {
             case 'red':
                 red + change > 255 || red + change < 0 ? null : setRed(red + change)
                 return;
+            case 'green':
+                red + change > 255 || green + change < 0 ? null : setGreen(green + change)
+                return;
+            case 'blue':
+                red + change > 255 || blue + change < 0 ? null : setBlue(blue + change)
+                return;
         }
     };
     return <View>
